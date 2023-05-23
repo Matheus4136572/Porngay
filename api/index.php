@@ -1,3 +1,23 @@
+<?php
+
+// Verifica se a solicitação é para a rota /api/
+if ($_SERVER['REQUEST_URI'] === '/api/') {
+    // Lógica para lidar com a solicitação da rota /api/
+    // Por exemplo, você pode retornar um JSON de resposta
+    $response = [
+        'message' => 'Esta é a rota /api/'
+    ];
+    
+    header('Content-Type: application/json');
+    echo json_encode($response);
+    exit;
+}
+
+// Outra lógica do seu aplicativo
+
+// ...
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
