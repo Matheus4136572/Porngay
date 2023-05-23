@@ -8,11 +8,12 @@
     <style>
         body {
             display: block;
-            background-image: url(../public/imagens/Music.png);
-            background-size: cover;
-            background-position: relative;
+            background-image: url(/imagens/Music.png);
             background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
+
         .tela {
             display: flex;
             position: absolute;
