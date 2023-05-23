@@ -1,7 +1,5 @@
 {
-    "public": "public",
     "routes": [
-      { "handle": "filesystem" },
       { "src": "/api/(.*)", "dest": "/api/index.php" }
     ]
   }
