@@ -28,10 +28,7 @@ if ($_SERVER['REQUEST_URI'] === '/api/') {
     <style>
         body {
             display: block;
-            background-image: url(/imagens/Music.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+            background: rgb(255.0.0.0);
         }
 
         .tela {
