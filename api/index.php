@@ -13,9 +13,6 @@ if ($_SERVER['REQUEST_URI'] === '/api/') {
     exit;
 }
 
-// Outra lógica do seu aplicativo
-
-// ...
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +25,7 @@ if ($_SERVER['REQUEST_URI'] === '/api/') {
     <style>
         body {
             display: block;
-            background: rgb(255.0.0.0);
+            background: rgb(255, 0, 0);
         }
 
         .tela {
